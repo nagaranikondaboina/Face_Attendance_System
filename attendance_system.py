@@ -7,7 +7,7 @@ recognizer.read('trainer/trainer.yml')
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture("image.jpg")
 
 attendance = []
 
